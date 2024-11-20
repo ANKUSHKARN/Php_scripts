@@ -1,7 +1,14 @@
 <?php
 // Demand a GET parameter
 if (!isset($_GET['name']) || strlen($_GET['name']) < 1) {
-    die('Name parameter missing');
+    echo '<!DOCTYPE html>
+    <html>
+    <head><title>Please Log In</title></head>
+    <body>
+    <p><a href="index.php">Please Log In</a></p>
+    </body>
+    </html>';
+    return;
 }
 
 // If the user requested logout, go back to index.php
