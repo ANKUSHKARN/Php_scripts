@@ -69,6 +69,7 @@ if ( isset($_REQUEST['name']) ) {
 <input type="submit" value="Play">
 <input type="submit" name="logout" value="Logout">
 </form>
+    <a href="#">Please Log In</a>
 
 <pre>
 <?php
