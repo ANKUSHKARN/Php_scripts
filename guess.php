@@ -1,6 +1,6 @@
 <html>
 <body>
-<title> Ankush kumar 2e4b2849 </title>
+<title>2e4b2849</title>
 <h1> Welcome to my guessing game</h1>
 
 <?php
